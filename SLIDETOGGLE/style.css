@@ -1,0 +1,19 @@
+body{
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+#panel, #flip, #flip2 {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding: 10px;
+    display: none;
+	height:500px;
+}
+

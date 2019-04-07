@@ -1,0 +1,19 @@
+body{
+background-image:url(map.gif)/*this is the background image of the html*/
+}
+  button {
+    width: 8em;/*this is the width of the button*/
+  }
+.ui-widget{/*this is the widget appearing when  you hover to an elemnt*/
+font-family:century gothic;/*desired font style*/
+font-zize:15px;/*desired font size*/
+border: 1px solid #000000;/*desired border*/
+background:#ffffff;/*desired background*/
+color:black;/*desired font color*/
+padding:8px;/*desired padding*/
+position:absolute;/*the positionwhich is absolute*/
+}
+.ui-helper-hidden-accessible{/*the appering black text*/
+height: 0px;/*to minimize to a not visible px*/
+overflow:hidden;/*to hide it*/
+}

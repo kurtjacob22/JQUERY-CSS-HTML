@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+	background: url('images/road.jpg');
+
+
+}
+
+#racetrack {
+    background: url('images/road.jpg') center left repeat-x;
+    height: 330px;
+    border-right: dashed 10px white;
+    box-sizing: border-box;
+    margin: 40px 0;
+}
+
+.car {
+    display: block;
+    position: relative;
+}
+
+#car1 { top: 30px; }
+#car2 { top: 100px; }
+#cat  { top: 100px; }
+
+.cat {
+  float:left;
+}
+
+input[type="button"] {
+    background: #77b72f;
+    color: white;
+    padding: 10px 20px;
+    border: solid 1px #444;
+	font-family:Copperplate Gothic Bold;
+	opacity:.7;
+
+}
+
+input#reset {
+    background: #fc3;
+    color: #444;
+}
+
+h1
+{
+	font-family:Copperplate Gothic Bold;
+
+	color:white;
+
+}
+
+h1:hover
+{
+	font-family:Copperplate Gothic Bold;
+	text-shadow:6px 6px 6px black;
+	color:white;
+
+}
+input[type="button"]:hover {
+    background: #77b72f;
+    color: white;
+    padding: 10px 20px;
+    border: solid 1px #444;
+	box-shadow:8px 8px 8px black;
+	opacity:1;
+}
+
